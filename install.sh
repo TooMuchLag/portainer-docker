@@ -94,9 +94,9 @@ sudo apt update -y
 sudo apt upgrade -y
 sudo apt install curl
 
-curl -fsSL https://get.docker.com -o get-docker.sh --version 25.0
+curl -fsSL https://get.docker.com -o get-docker.sh 
 
-sudo sh get-docker.sh
+sudo sh get-docker.sh --version 25.0
 
 sleep 3
 
